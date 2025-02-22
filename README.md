@@ -1,10 +1,10 @@
-📚 Using Time Series Analysis for Sales and Demand Forecasting
+# 📚 Using Time Series Analysis for Sales and Demand Forecasting
 
-📌 Project Overview  
+## 📌 Project Overview  
 
 This project explores time series forecasting techniques to predict weekly and monthly book sales for *The Alchemist* and *The Very Hungry Caterpillar*. The objective is to identify the most effective forecasting model for improving inventory planning and demand estimation. Various approaches—including traditional statistical models (SARIMA), machine learning (XGBoost), deep learning (LSTM), and hybrid models—were evaluated for their predictive accuracy.  
 
-📊 Key Features  
+## 📊 Key Features  
 
 ✔️ **Data Preprocessing**: Cleaned and resampled weekly sales data, handling missing values and ensuring time-series continuity.  
 📈 **Forecasting Models**: Evaluated SARIMA, XGBoost, LSTM, and hybrid models for sales prediction.  
@@ -12,7 +12,7 @@ This project explores time series forecasting techniques to predict weekly and m
 🛠 **Hyperparameter Tuning**: Optimised machine learning models for improved predictive performance.  
 📊 **Comparative Analysis**: Assessed model effectiveness at both weekly and monthly forecasting levels.  
 
-📈 Results & Insights  
+## 📈 Results & Insights  
 
 🚀 **LSTM models** provided the most accurate forecasts at the weekly level.  
 📌 **XGBoost** significantly outperformed SARIMA for monthly sales predictions.  
@@ -33,12 +33,12 @@ This project explores time series forecasting techniques to predict weekly and m
 ✔️ **Key Takeaway**:  
 📌 **LSTM is the best choice for short-term forecasting**, while **XGBoost is optimal for long-term demand estimation**.  
 
-📂 Project Files  
+## 📂 Project Files  
 
 📄 **[Google Colab Notebook: Using Time Series Analysis for Sales and Demand Forecasting](./Using_Time_Series_Analysis_for_Sales_and_Demand_Forecasting.ipynb)**
 📑 **[Business Report: Using Time Series Analysis for Sales and Demand Forecasting](./Using_Time_Series_Analysis_for_Sales_and_Demand_Forecasting.ipynb)**
 
-🛠 Technologies Used  
+## 🛠 Technologies Used  
 
 🐍 **Python**: Pandas, NumPy, Scikit-Learn, TensorFlow, Matplotlib, Seaborn  
 📈 **Time Series Modelling**: SARIMA, XGBoost, LSTM, Hybrid Models  
