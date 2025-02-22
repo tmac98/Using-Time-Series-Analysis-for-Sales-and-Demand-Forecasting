@@ -36,6 +36,7 @@ This project explores time series forecasting techniques to predict weekly and m
 ## 📂 Project Files  
 
 📄 **[Google Colab Notebook: Using Time Series Analysis for Sales and Demand Forecasting](./Using_Time_Series_Analysis_for_Sales_and_Demand_Forecasting.ipynb)**
+
 📑 **[Business Report: Using Time Series Analysis for Sales and Demand Forecasting](./Using_Time_Series_Analysis_for_Sales_and_Demand_Forecasting.ipynb)**
 
 ## 🛠 Technologies Used  
