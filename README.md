@@ -6,19 +6,19 @@ This project explores time series forecasting techniques to predict weekly and m
 
 ## 📊 Key Features  
 
-✔️ **Data Preprocessing**: Cleaned and resampled weekly sales data, handling missing values and ensuring time-series continuity.  
-📈 **Forecasting Models**: Evaluated SARIMA, XGBoost, LSTM, and hybrid models for sales prediction.  
-📌 **Performance Metrics**: Used MAE (Mean Absolute Error) and MAPE (Mean Absolute Percentage Error) to assess forecasting accuracy.  
-🛠 **Hyperparameter Tuning**: Optimised machine learning models for improved predictive performance.  
-📊 **Comparative Analysis**: Assessed model effectiveness at both weekly and monthly forecasting levels.  
+- ✔️ **Data Preprocessing**: Cleaned and resampled weekly sales data, handling missing values and ensuring time-series continuity.  
+- 📈 **Forecasting Models**: Evaluated SARIMA, XGBoost, LSTM, and hybrid models for sales prediction.  
+- 📌 **Performance Metrics**: Used MAE (Mean Absolute Error) and MAPE (Mean Absolute Percentage Error) to assess forecasting accuracy.  
+- 🛠 **Hyperparameter Tuning**: Optimised machine learning models for improved predictive performance.  
+- 📊 **Comparative Analysis**: Assessed model effectiveness at both weekly and monthly forecasting levels.  
 
 ## 📈 Results & Insights  
 
-🚀 **LSTM models** provided the most accurate forecasts at the weekly level.  
-📌 **XGBoost** significantly outperformed SARIMA for monthly sales predictions.  
-📊 **Hybrid models did not improve accuracy**, often introducing compounding residual errors.  
-🤖 **SARIMA struggled** with capturing complex sales patterns, particularly for *The Very Hungry Caterpillar*.  
-📉 **Stock replenishment strategies** should be based on LSTM for short-term forecasts and XGBoost for long-term planning.  
+- 🚀 **LSTM models** provided the most accurate forecasts at the weekly level.  
+- 📌 **XGBoost** significantly outperformed SARIMA for monthly sales predictions.  
+- 📊 **Hybrid models did not improve accuracy**, often introducing compounding residual errors.  
+- 🤖 **SARIMA struggled** with capturing complex sales patterns, particularly for *The Very Hungry Caterpillar*.  
+- 📉 **Stock replenishment strategies** should be based on LSTM for short-term forecasts and XGBoost for long-term planning.  
 
 | Model | The Alchemist MAE | The Alchemist MAPE | The Very Hungry Caterpillar MAE | The Very Hungry Caterpillar MAPE |
 |--------|-----------------|----------------|-----------------------------|-----------------------------|
@@ -41,13 +41,13 @@ This project explores time series forecasting techniques to predict weekly and m
 
 ## 🛠 Technologies Used  
 
-🐍 **Python**: Pandas, NumPy, Scikit-Learn, TensorFlow, Matplotlib, Seaborn  
-📈 **Time Series Modelling**: SARIMA, XGBoost, LSTM, Hybrid Models  
-📊 **Visualisation**: Trend analysis, forecasting plots, error distributions  
-🔍 **Optimization**: GridSearchCV, Keras Tuner, Auto ARIMA  
+- 🐍 **Python**: Pandas, NumPy, Scikit-Learn, TensorFlow, Matplotlib, Seaborn  
+- 📈 **Time Series Modelling**: SARIMA, XGBoost, LSTM, Hybrid Models  
+- 📊 **Visualisation**: Trend analysis, forecasting plots, error distributions  
+- 🔍 **Optimization**: GridSearchCV, Keras Tuner, Auto ARIMA  
 
-🔮 Future Improvements  
+## 🔮 Future Improvements  
 
-📊 **Explore external factors** (e.g., marketing campaigns, seasonal trends) to refine model accuracy.  
-📈 **Develop an automated forecasting pipeline** to dynamically retrain models as new sales data becomes available.  
-🖥️ **Deploy a real-time dashboard** for retailers and publishers to monitor predicted sales trends.  
+- 📊 **Explore external factors** (e.g., marketing campaigns, seasonal trends) to refine model accuracy.  
+- 📈 **Develop an automated forecasting pipeline** to dynamically retrain models as new sales data becomes available.  
+- 🖥️ **Deploy a real-time dashboard** for retailers and publishers to monitor predicted sales trends.  
